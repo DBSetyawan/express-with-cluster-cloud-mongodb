@@ -1,7 +1,7 @@
 {
   "name": "bank-mega",
   "version": "1.0.0",
-  "description": "",
+  "description": "back end api",
   "main": "server.js",
   "dependencies": {
     "chalk": "^4.0.0",
