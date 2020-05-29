@@ -1,5 +1,8 @@
 
 const MongoClient = require('mongodb').MongoClient;
+
+// https://docs.atlas.mongodb.com/data-explorer/#access-data-explorer
+// cloud.mongodb.com
 const uri = "mongodb+srv://daniel:asdasdasjdh7324%28k@cluster0-sxrjq.mongodb.net/sample_airbnb?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 client.connect(err => {
