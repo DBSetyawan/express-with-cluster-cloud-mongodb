@@ -1,4 +1,4 @@
-var Heros = require('./heros.dao');
+var Heros = require('../api/heros/heros.dao');
 
 exports.createHero = function (req, res, next) {
     var hero = {
